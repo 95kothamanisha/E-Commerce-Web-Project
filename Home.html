@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- <meta charset="UTF-8">
+  <title>Home - E-commerce</title> -->
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <link rel="shortcut icon" href="./Assets/HomePageLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Home.css">
+</head>
+<body>
+  <!-- <header>
+    <h1>Welcome to Our Shop</h1>
+    <a href="cart.html">🛒 Go to Cart</a>
+  </header>
+
+  <div class="product-container"> -->
+    <!-- Sample Products -->
+    <!-- <div class="product">
+      <h2>Wireless Headphones</h2>
+      <p>Price: ₹1500</p>
+      <button onclick="addToCart('Wireless Headphones', 1500)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <h2>Smart Watch</h2>
+      <p>Price: ₹2500</p>
+      <button onclick="addToCart('Smart Watch', 2500)">Add to Cart</button>
+    </div> -->
+    
+    <!-- Add more product blocks similarly -->
+  </div>
+  <nav>
+    <section id="home_nav">
+        <img src="./Assets/levisLogo.jpg" alt="" id="homePageLogo">
+       <a href="#cart_items">
+        <i class="fa-solid fa-cart-shopping" id="cart"></i>
+       </a>
+        <span id="cart_value">0</span>
+    </section>
+    <section id="welcome_user">
+        <!-- <i class="fa-solid fa-user"></i> -->
+        <p id="welcome1">Welcome!</p>
+        <div id="welcome2">
+            <span id="user">Rahul</span>
+        </div>
+    </section>
+  </nav>
+  <section id="card_container"></section>
+  <section id="cart_items" style="display: none;">
+ </section>
+ <main id="price_container"></main>
+   <script src="./Home.js"></script>
+</body>
+</html>
