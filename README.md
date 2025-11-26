@@ -66,19 +66,7 @@ It includes essential pages such as Home, Login, Registration, and Cart, all des
 
 ## 🚀 **How to Run the Project Locally**
 
-1. **Clone the repository**
-
-```bash
-git clone https://github.com/95kothamanisha/<your-repo-name>.git
-```
-
-2. **Open the project folder**
-
-```bash
-cd <your-repo-name>
-```
-
-3. **Run the website**
+1. **Run the website**
 
 Simply open any of the following files in a browser (Chrome recommended):
 
@@ -88,12 +76,6 @@ Simply open any of the following files in a browser (Chrome recommended):
 * `Cart.html`
 
 No server setup is required since this is a frontend-only project.
-
----
-
-## 📸 Screenshots (Optional)
-
-*Add screenshots here once you upload them.*
 
 ---
 
